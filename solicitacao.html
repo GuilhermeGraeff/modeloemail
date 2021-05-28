@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Serviço Solicitado com sucesso</title> 
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                border: 0; 
+                display: flex;
+                background-color: rgb(236, 236, 236);;
+                justify-content: center; 
+                width:100%;
+                height: 100%;
+                font-family:arial, 'helvetica neue', helvetica, sans-serif;
+            }
+            #frame{
+                background-color: rgb(255, 255, 255);
+                width: 90%;
+                border-radius: 10px;
+            }
+            #logo{
+                padding: 0;
+                margin: 0;
+                border: 0;  
+                width: 100%;
+                display: flex;
+                justify-content: center; 
+                flex-direction: row;
+            }
+            #img-logo{
+                width: 200px;
+                height: 200px;
+            }
+            #text-field{
+                padding: 0;
+                margin: 0;
+                border: 0; 
+                margin-top: 200px;
+                margin-bottom: 200px;
+                width: 100%;
+                height: 200px;
+                display: flex;
+                justify-content: center; 
+                flex-direction: column;
+            }
+            .text{
+                display: flex;
+                justify-content: center; 
+                flex-direction: row;
+            }
+            .text-content{
+                padding: 0;
+                margin: 0;
+                border: 0; 
+                margin-top: 10px;
+                width: 85%;
+                text-align: center;
+                color: rgb(38, 70, 83);
+                font-size: 1.5em;
+            }
+            .text-content-bellow{
+                padding: 0;
+                margin: 0;
+                border: 0; 
+                margin-top: 50px;
+                width: 85%;
+                text-align: center;
+                color: rgb(38, 70, 83);
+                font-size: 1.2em;
+            }
+            
+            #footer{
+                width:100%;
+            }
+            #img-footer{
+                padding: 0;
+                margin: 0;
+                border: 0; 
+                width:100%;
+            }
+            a:link{
+                text-decoration:none; 
+                color:rgb(38, 70, 83);
+            }
+
+            a:visited{
+                color: rgb(47, 123, 154);
+            }
+
+            a:active{
+                color: lightblue;
+            }
+            a:hover{
+                color:rgb(47, 123, 154);
+                text-shadow: 3px 3px 5px white; 
+            }
+            @media only screen and (min-width: 1000px){
+                #frame{
+                    width: 50%;
+                }
+                #text-field{
+                    padding: 0;
+                    margin: 0;
+                    border: 0; 
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    width: 100%;
+                    height: 200px;
+                    display: flex;
+                    justify-content: center; 
+                    flex-direction: column;
+                }
+                #img-logo{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        </style>
+    </head> 
+
+    <body> 
+        <div id="frame">
+            <div id="logo">
+                <img id="img-logo" src="https://practice.uffs.cc/images/logo-icon.png">
+            </div>
+            <div id="text-field">
+                <div class="text">
+                    <p class="text-content">Prezado(a) {nome do solicitante},</p>
+                </div>
+                <div class="text">
+                    <p class="text-content">Informamos que a sua solicitação {título da solicitação} foi cadastrada com sucesso. Você receberá uma resposta da equipe do PRACTICE em até três dias úteis.</p>
+                </div>    
+                <div class="text">
+                    <p class="text-content">Atenciosamente, equipe PRACTICE.</p>
+                </div>  
+                <div class="text">
+                    <p class="text-content-bellow">ESTA É UMA MENSAGEM AUTOMÁTICA. POR FAVOR, NÃO RESPONDA!    </p>
+                </div>    
+            </div>
+            <div id="footer">
+                <img id="img-footer" src="https://lh3.google.com/u/0/d/1XIwX1kH4eHyVIVRD3dL2lIXd_gTTMWd8=w1920-h937-iv2">
+            </div>
+        </div>
+    </body>
+</html>
